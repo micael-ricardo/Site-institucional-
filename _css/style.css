@@ -1,0 +1,187 @@
+/*Estilização da pagina*/
+
+p{
+	font-size: 14px;
+	text-align: justify;
+	text-indent: 2em;
+}
+
+
+
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+.hour-divider{
+	margin: 1rem 0;
+	background-color: rgba(255,255,255,0.8);
+}
+
+
+/*Fromulario de contato*/
+	.contact{
+		padding: 1%;
+		height: 90%;
+	}
+	li{
+		list-style: none;
+		color: #ADD8E6;
+	}
+	.h-func{
+		background: #4682B4;
+		padding: 2%;
+		border-top-left-radius: 0.5rem;
+		border-bottom-left-radius: 0.5rem;
+	}
+	.contact-info{
+		margin-top:10%;
+	}
+	.contact-info img{
+		margin-bottom: 15%;
+	}
+	.contact-info h2{
+		margin-bottom: 10%;
+	}
+	.contact-center{
+		background: #fff;
+		padding: 1%;
+		/*border-top-right-radius: 0.5rem;*/
+		/*border-bottom-right-radius: 0.5rem;*/
+		border-radius: 0.5rem;
+	}
+	.contact-form label{
+		font-weight:600;
+	}
+	.contact-form button{
+		background: #4682B4;
+		color: #fff;
+		font-weight: 600;
+		width: 25%;
+	}
+	.contact-form button:focus{
+		box-shadow:none;
+	}
+
+/*fim formulario contato*/
+
+/*Rodape*/
+.redes-sociais li{
+	display: inline-block;
+	color: #333;
+	padding: 2px;
+	margin: 5px;
+	float: right;
+	font-size: 22px;
+}
+.redes-sociais-topo{
+	margin-top: 1%;
+	margin-left: 45%;
+}
+
+.login{
+	font-size: 18px;
+	border: 1px solid #1E90FF;
+	border-radius: 0.5rem;
+	padding: 0.1rem;
+
+}
+.login a:hover{
+	background: #1E90FF;
+	color: #fff;
+	border: 0px solid #fff;
+	border-radius: 0.5rem;
+	padding: 0.1rem;
+
+}
+
+#bg-video{
+	position: relative;
+	width: 90%;
+	height: auto;
+	z-index: -1;
+}
+
+
+
+#texto-topo{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	width: 30%;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 1em;
+	height: auto;
+ }
+
+/*texto topo*/
+@media only screen and (max-width: 1140px){
+	 #texto-topo{
+		position: absolute;
+		top: 32%;
+		left: 20%;
+		width: 50%;
+		background: rgba(0, 0, 0, 0.7);
+		padding: 1em;
+		height: auto;
+ 	}	
+}
+
+
+
+@media only screen and (max-width: 900px){
+ #texto-topo h1{
+ 	font-size: 20px;
+ 	top: 50%;
+ }
+
+}
+
+@media only screen and (max-width: 1140px){
+ #texto-topo h1{
+ 	font-size: 22px;
+ }
+
+}
+
+@media only screen and (max-width: 600px){
+ #texto-topo h1{
+ 	font-size: 18px;
+ }
+
+}
+/*Fim do topo*/
+
+/*Seção de serviços*/
+
+@media only screen and (max-width: 900px){
+ .container h1{
+ 		font-size: 20px;
+ 	}
+
+}
+
+@media only screen and (max-width: 1140px){
+ .container h1{
+ 		font-size: 22px;
+ 	}
+
+}
+
+@media only screen and (max-width: 600px){
+ .container h1{
+ 		font-size: 18px;
+ 	}
+
+}
+
+.IN {
+	padding: 30px;
+}
+
+
+
+
+
+
+
